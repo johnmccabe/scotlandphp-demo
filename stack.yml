@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  airport:
+    lang: php7
+    handler: ./airport
+    image: airport:latest
